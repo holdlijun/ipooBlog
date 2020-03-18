@@ -1,10 +1,11 @@
 baseURL = "https://www.seasunfree.top/"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
 title = "Ipoo"
 theme = "KeepIt"
 hasCJKLanguage = true    #自动检测是否包含 中文\日文\韩文
-
+disableRSS = false
+disableSitemap = false
 paginate = 12 # 首页每页显示的文章数
 enableEmoji = true
 enableRobotsTXT = true
@@ -84,8 +85,11 @@ pygmentsUseClasses=true
     hint = 365               # Display hint if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示提醒
     warn = 730             # Display warning if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示警告
 [params.gravatar]
-    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
-
+    #email = "hold_lijun@163.com"   #uncomment and insert your email address to use gravatar
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
 [params.utteranc]
     enable = true
     repo = "holdlijun/hugoblogtalks"    # 存储评论的Repo，格式为 owner/repo
@@ -194,10 +198,10 @@ clientId = "e8c078c7816de8c41c0e"    # Your client ID
 clientSecret = "082112043acbb57112b52c9e2f3bcad28531734e" # Your client secret
 
 [params.valine]
-  enable = false
+  enable = true
   language = 'en'
-  appId = 'your appId'
-  appKey = 'your appKey'
+  appId = '5w7gViIsG10OukLXFz7nxqic-gzGzoHsz'
+  appKey = 'b5PvlK1CsivGIFOUGt13bzQS'
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
   verify = false # Verification code
   avatar = 'mm'
@@ -214,9 +218,9 @@ clientSecret = "082112043acbb57112b52c9e2f3bcad28531734e" # Your client secret
     clientId = ""           # Your client ID
     clientSecret = ""       # Your client secret
 
-  [params.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
-    site_offset = 100000
-    enable = true
-    siteUV = true
-    sitePV = true
-    pagePV = true
+  #[params.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
+   # site_offset = 100000
+   # enable = true
+   # siteUV = true
+   # sitePV = true
+   # pagePV = true
