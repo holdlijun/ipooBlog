@@ -205,8 +205,8 @@ clientSecret = "082112043acbb57112b52c9e2f3bcad28531734e" # Your client secret
   visitor = true
 
 [params.utterances]       # https://utteranc.es/
-    owner = "holdlijun"              # Your GitHub ID
-    repo = "hugoblogtalks"               # The repo to store comments
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
 
 [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
     owner = ""              # Your GitHub ID
@@ -215,6 +215,7 @@ clientSecret = "082112043acbb57112b52c9e2f3bcad28531734e" # Your client secret
     clientSecret = ""       # Your client secret
 
   [params.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
+    site_offset = 100000
     enable = true
     siteUV = true
     sitePV = true
