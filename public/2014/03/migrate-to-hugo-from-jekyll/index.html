@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="zh-cn">
   <head>
@@ -165,170 +164,6 @@
           
           
 
-=======
-<!DOCTYPE html>
-<html lang="zh-cn">
-  <head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noodp"/>
-  
-  
-  
-  
-  
-  <link rel="prev" href="https://www.seasunfree.top/2020/03/learn-md/" />
-  <link rel="next" href="https://www.seasunfree.top/2014/09/creating-a-new-theme/" />
-  <link rel="canonical" href="https://www.seasunfree.top/2014/03/migrate-to-hugo-from-jekyll/" />
-  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>
-       
-       
-           Migrate to Hugo from Jekyll | Ipoo
-       
-  </title>
-  <meta name="title" content="Migrate to Hugo from Jekyll | Ipoo">
-    
-  
-  <link rel="stylesheet" href="/font/iconfont.css">
-  <link rel="stylesheet" href="/css/main.min.css">
-
-
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Migrate to Hugo from Jekyll"/>
-<meta name="twitter:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &lt;root&gt;/▾ images/logo.png should become
-▾ &lt;root&gt;/▾ static/▾ images/logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static."/>
-
-  <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Migrate to Hugo from Jekyll",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https:\/\/www.seasunfree.top\/2014\/03\/migrate-to-hugo-from-jekyll\/"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https:\/\/www.seasunfree.top\/cover.png",
-    "width":  800 ,
-    "height":  600 
-  },
-  "genre": "posts",
-  
-  "wordcount":  813 ,
-  "url": "https:\/\/www.seasunfree.top\/2014\/03\/migrate-to-hugo-from-jekyll\/",
-  "datePublished": "2014-03-10T00:00:00\x2b00:00",
-  "dateModified": "2014-03-10T00:00:00\x2b00:00",
-  
-  "publisher": {
-    "@type": "Organization",
-    "name": "ipoo",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https:\/\/www.seasunfree.top\/logo.png",
-      "width":  127 ,
-      "height":  40 
-    }
-  },
-  "author": {
-    "@type": "Person",
-    "name": "map[name:Hugo Authors]"
-  },
-  "description": ""
-}
-</script>
-</head>
-
-  
-
-
-
-  <body class="">
-    <div class="wrapper">
-        <nav class="navbar">
-    <div class="container">
-        <div class="navbar-header header-logo">
-        	<a href="https://www.seasunfree.top/">Ipoo</a>
-        </div>
-        <div class="menu navbar-right">
-                
-                
-                <a class="menu-item" href="/posts/" title="">Blog</a>
-                
-                <a class="menu-item" href="/categories/" title="">Categories</a>
-                
-                <a class="menu-item" href="/about" title="">About</a>
-                
-                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
-        </div>
-    </div>
-</nav>
-<nav class="navbar-mobile" id="nav-mobile" style="display: none">
-     <div class="container">
-        <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://www.seasunfree.top/">Ipoo</a></div>
-            <div class="menu-toggle">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-     
-          <div class="menu" id="mobile-menu">
-                
-                
-                <a class="menu-item" href="/posts/" title="">Blog</a>
-                
-                <a class="menu-item" href="/categories/" title="">Categories</a>
-                
-                <a class="menu-item" href="/about" title="">About</a>
-                
-        </div>
-    </div>
-</nav>
-
-    	 <main class="main">
-          <div class="container">
-      		
-<article class="post-warp">
-    <header class="post-header">
-        <h1 class="post-title">Migrate to Hugo from Jekyll</h1>
-        <div class="post-meta">
-              <a href="https://www.seasunfree.top/" rel="author">map[name:Hugo Authors]</a>  ♥ 
-                <span class="post-time">
-                     <time datetime=2014-03-10 >10 March 2014</time>
-                </span>
-                
-                
-                <i class="iconfont icon-timer"></i>
-                4 min
-        </div>
-    </header>
-    <div class="post-content">
-        
-
-        
-
-        
-        
-     
-          
-          
-          
-
-          
-          
-          
-
->>>>>>> 2cd7c7115b0e3ea9c1a639291777ff40c4f3e299
           <h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
 <p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
 With Jekyll, something that looked like</p>
@@ -462,7 +297,6 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 <p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
-<<<<<<< HEAD
 
     </div>
 
@@ -596,6 +430,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 		   </main>
       <footer class="footer">
     <div class="copyright">
+        
         &copy;
         
         <span itemprop="copyrightYear">2020 - 2020</span>
@@ -603,9 +438,11 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
          
             <span class="author" itemprop="copyrightHolder"><a href="https://www.seasunfree.top/">ipoo</a> | </span>
          
-
+         
 		  <span>Crafted with ❤️ by <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="external nofollow noopener noreffer">KeepIt</a> & <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a></span>
     </div>
+
+        
 </footer>
 
 
@@ -634,204 +471,3 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
      </div>
   </body>
 </html>
-=======
-
-    </div>
-
-    <div class="post-copyright">
-             
-            <p class="copyright-item">
-                <span>:</span>
-                <span>ipoo </span>
-                </p>
-            
-           
-            <p class="copyright-item">
-                    <span>:</span>
-                   <span>813</span>
-            </p>
-            
-            <p class="copyright-item">
-                
-                <span>:</span>
-                <span>
-
-      
-        <a href="//twitter.com/share?url=https%3a%2f%2fwww.seasunfree.top%2f2014%2f03%2fmigrate-to-hugo-from-jekyll%2f&amp;text=Migrate%20to%20Hugo%20from%20Jekyll&amp;via=" target="_blank" title="Share on Twitter">
-          <i class="iconfont icon-twitter"></i>
-        </a>
-        
-      
-      
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.seasunfree.top%2f2014%2f03%2fmigrate-to-hugo-from-jekyll%2f" target="_blank" title="Share on Facebook">
-          <i class="iconfont icon-facebook"></i>
-        </a>
-        
-      
-      
-      
-      
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.seasunfree.top%2f2014%2f03%2fmigrate-to-hugo-from-jekyll%2f&amp;title=Migrate%20to%20Hugo%20from%20Jekyll" target="_blank" title="Share on LinkedIn">
-          <i class="iconfont icon-linkedin"></i>
-        </a>
-        
-      
-      
-        
-      
-        
-      
-
-          
-
-          
-
-          
-
-          
-        <a href="//service.weibo.com/share/share.php?url=https%3a%2f%2fwww.seasunfree.top%2f2014%2f03%2fmigrate-to-hugo-from-jekyll%2f&amp;appkey=&amp;title=Migrate%20to%20Hugo%20from%20Jekyll" target="_blank" title="Share on Douban ">
-            <i class="iconfont icon-weibo"></i>
-          </a>
-          
-</span>
-                
-            </p>
-
-             
-            <p class="copyright-item">
-                Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
-            </p>
-            
-    </div>
-
-  
-    <div class="post-tags">
-        
-        <section>
-                <a href="javascript:window.history.back();"></a></span> · 
-                <span><a href="https://www.seasunfree.top/"></a></span>
-        </section>
-    </div>
-
-    <div class="post-nav">
-        
-        <a href="https://www.seasunfree.top/2020/03/learn-md/" class="prev" rel="prev" title="Learn Md"><i class="iconfont icon-dajiantou"></i>&nbsp;Learn Md</a>
-         
-        
-        <a href="https://www.seasunfree.top/2014/09/creating-a-new-theme/" class="next" rel="next" title="Creating a New Theme">Creating a New Theme&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
-        
-    </div>
-
-    <div class="post-comment">
-          
-          <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      (function() {
-          
-          
-          if (window.location.hostname == "localhost")
-              return;
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          var disqus_shortname = 'yourdiscussshortname';
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-<div >
-  <script src="https://utteranc.es/client.js"
-        repo= "holdlijun/hugoblogtalks"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-  </script>
-</div>
-
-
-      <div id="gitalk-container"></div>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
-      <script type="text/javascript">
-          var gitalk = new Gitalk({
-              id: '2014-03-10 00:00:00 \x2b0000 UTC',
-              title: 'Migrate to Hugo from Jekyll',
-              clientID: 'e8c078c7816de8c41c0e',
-              clientSecret: '082112043acbb57112b52c9e2f3bcad28531734e',
-              repo: 'hugoblogtalks',
-              owner: 'holdlijun',
-              admin: ['holdlijun'],
-              body: decodeURI(location.href)
-          });
-          gitalk.render('gitalk-container');
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript><span id="/2014/03/migrate-to-hugo-from-jekyll/" class="leancloud_visitors" data-flag-title="Migrate to Hugo from Jekyll">
-            <span class="post-meta-item-text"> Visitors: </span>
-            <span class="leancloud-visitors-count">0</span>
-            <p></p>
-        </span><div id="vcomments"></div>
-        <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-        <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-        <script type="text/javascript">
-            new Valine({
-                el: '#vcomments',
-                lang: "en",
-                appId: "5w7gViIsG10OukLXFz7nxqic-gzGzoHsz",
-                appKey: "b5PvlK1CsivGIFOUGt13bzQS",
-                notify:  false ,
-                verify:  false ,
-                avatar: "mm",
-                placeholder: "your comments ...",
-                visitor:  true ,
-            });
-        </script>
-
- 
-
-          
-    </div>
-</article>
-          </div>
-		   </main>
-      <footer class="footer">
-    <div class="copyright">
-        &copy;
-        
-        <span itemprop="copyrightYear">2020 - 2020</span>
-        
-         
-            <span class="author" itemprop="copyrightHolder"><a href="https://www.seasunfree.top/">ipoo</a> | </span>
-         
-
-		  <span>Crafted with ❤️ by <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="external nofollow noopener noreffer">KeepIt</a> & <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a></span>
-    </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
-    
-  
-
-
-
-
-
-
-
-     </div>
-  </body>
-</html>
->>>>>>> 2cd7c7115b0e3ea9c1a639291777ff40c4f3e299
