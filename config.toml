@@ -46,6 +46,10 @@ pygmentsUseClasses=true
     name = "About"
     url = "/about"
     weight = 4
+   [[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 5
 
 [params]
     since = 2020
@@ -89,7 +93,8 @@ pygmentsUseClasses=true
 [taxonomies]
     tag = "tags"
     category = "categories"
-    series = "series"
+    #series = "series"
+    #archive = "archives"
 [params.utteranc]
     enable = true
     repo = "holdlijun/hugoblogtalks"    # 存储评论的Repo，格式为 owner/repo
@@ -117,42 +122,7 @@ pygmentsUseClasses=true
     #Bitbucket = "xxxx"
     #Stackoverflow = "xxxxx"
     #Weibo = "xxxx"
-    #Odnoklassniki = "xxxx"
-    #VKontakte = "xxxx"
-    #Flickr = "xxxx"
-    #Xing = "xxxx"
-    #Snapchat = "xxxx"
-    #Soundcloud = "xxxx"
-    #Spotify = "xxxx"
-    #Bandcamp = "xxxx"
-    #Paypal = "xxxx"
-    #Fivehundredpx = "xxxx"
-    #Mix = "xxxx"
-    #Goodreads = "xxxx"
-    #Lastfm = "xxxx"
-    #Foursquare = "xxxx"
-    #Hackernews = "xxxx"
-    #Kickstarter = "xxxx"
-    #Patreon = "xxxx"
-    #Steam = "xxxx"
-    #Twitch = "xxxx"
-    #Strava = "xxxx"
-    #Skype = "xxxx"
-    #Whatsapp = "xxxx"
-    #Zhihu = "xxxx"
-    #Douban = "xxxx"
-    #Angellist = "xxxx"
-    #Slidershare = "xxxx"
-    #Jsfiddle = "xxxx"
-    #Deviantart = "xxxx"
-    #Behance = "xxxx"
-    #Dribble = "xxxx"
-    #Wordpress = "xxxx"
-    #Vine = "xxxx"
-    #Googlescholar = "xxxx"
-    #Researchgate = "xxxx"
-    #Mastodon = "xxxx"
-    #Thingiverse = "xxxx"
+    
 
 [params.share]
     Twitter = true
@@ -192,10 +162,10 @@ pygmentsUseClasses=true
     height = 600
 
 [params.gitalk]
-owner = "holdlijun"       # Your GitHub ID
-repo = "hugoblogtalks"        # The repo to store comments
-clientId = "e8c078c7816de8c41c0e"    # Your client ID
-clientSecret = "082112043acbb57112b52c9e2f3bcad28531734e" # Your client secret
+#owner = "holdlijun"       # Your GitHub ID
+#repo = "hugoblogtalks"        # The repo to store comments
+#clientId = "e8c078c7816de8c41c0e"    # Your client ID
+#clientSecret = "082112043acbb57112b52c9e2f3bcad28531734e" # Your client secret
 
 [params.valine]
   enable = true

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020 on Ipoo</title>
+    <link>https://www.seasunfree.top/tags/2020/</link>
+    <description>Recent content in 2020 on Ipoo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 19 Mar 2020 14:09:30 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.seasunfree.top/tags/2020/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Life</title>
+      <link>https://www.seasunfree.top/2020/03/first-life/</link>
+      <pubDate>Thu, 19 Mar 2020 14:09:30 +0800</pubDate>
+      
+      <guid>https://www.seasunfree.top/2020/03/first-life/</guid>
+      <description>We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</description>
+    </item>
+    
+  </channel>
+</rss>

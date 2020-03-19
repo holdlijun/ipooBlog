@@ -10,9 +10,9 @@
   
   
   
-  <link rel="prev" href="https://www.seasunfree.top/2014/04/introduction-aux-mod%C3%A8les-hugo/" />
-  <link rel="next" href="https://www.seasunfree.top/2014/04/hugo-template-primer/" />
-  <link rel="canonical" href="https://www.seasunfree.top/2014/04/getting-started-with-hugo/" />
+  <link rel="prev" href="https://www.seasunfree.top/2020/03/learn-md/" />
+  <link rel="next" href="https://www.seasunfree.top/2014/03/migrate-to-hugo-from-jekyll/" />
+  <link rel="canonical" href="https://www.seasunfree.top/2020/03/first-life/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,10 +24,10 @@
   <title>
        
        
-           Getting Started with Hugo | Ipoo
+           First Life | Ipoo
        
   </title>
-  <meta name="title" content="Getting Started with Hugo | Ipoo">
+  <meta name="title" content="First Life | Ipoo">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -35,22 +35,17 @@
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Getting Started with Hugo"/>
-<meta name="twitter:description" content="Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:"/>
+<meta name="twitter:title" content="First Life"/>
+<meta name="twitter:description" content="We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites."/>
 
   <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Getting Started with Hugo",
+  "headline": "First Life",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https:\/\/www.seasunfree.top\/2014\/04\/getting-started-with-hugo\/"
+    "@id": "https:\/\/www.seasunfree.top\/2020\/03\/first-life\/"
   },
   "image": {
     "@type": "ImageObject",
@@ -59,11 +54,11 @@ Follow the following steps:
     "height":  600 
   },
   "genre": "posts",
-  "keywords": "go, golang, hugo, development",
-  "wordcount":  350 ,
-  "url": "https:\/\/www.seasunfree.top\/2014\/04\/getting-started-with-hugo\/",
-  "datePublished": "2014-04-02T00:00:00\x2b00:00",
-  "dateModified": "2014-04-02T00:00:00\x2b00:00",
+  "keywords": "first, 2020",
+  "wordcount":  38 ,
+  "url": "https:\/\/www.seasunfree.top\/2020\/03\/first-life\/",
+  "datePublished": "2020-03-19T14:09:30\x2b08:00",
+  "dateModified": "2020-03-19T14:09:30\x2b08:00",
   
   "publisher": {
     "@type": "Organization",
@@ -77,7 +72,7 @@ Follow the following steps:
   },
   "author": {
     "@type": "Person",
-    "name": "map[name:Hugo Authors]"
+    "name": "ipoo"
   },
   "description": ""
 }
@@ -139,21 +134,19 @@ Follow the following steps:
       		
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">Getting Started with Hugo</h1>
+        <h1 class="post-title">First Life</h1>
         <div class="post-meta">
-              <a href="https://www.seasunfree.top/" rel="author">map[name:Hugo Authors]</a>  ♥ 
+              <a href="https://www.seasunfree.top/" rel="author">ipoo</a>  ♥ 
                 <span class="post-time">
-                     <time datetime=2014-04-02 >2 April 2014</time>
+                     <time datetime=2020-03-19 >19 March 2020</time>
                 </span>
                 
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://www.seasunfree.top/categories/development/"> Development </a>
-                        <a href="https://www.seasunfree.top/categories/golang/"> golang </a>
                         
                 </span>
                 <i class="iconfont icon-timer"></i>
-                2 min
+                1 min
         </div>
     </header>
     <div class="post-content">
@@ -172,60 +165,8 @@ Follow the following steps:
           
           
 
-          <h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
-<p>Go to <a href="https://github.com/spf13/hugo/releases">Hugo releases</a> and download the
-appropriate version for your OS and architecture.</p>
-<p>Save it somewhere specific as we will be using it in the next step.</p>
-<p>More complete instructions are available at <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a></p>
-<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
-<p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.</p>
-<p>Follow the following steps:</p>
-<ol>
-<li>Clone the <a href="http://github.com/spf13/hugo">Hugo repository</a></li>
-<li>Go into the repo</li>
-<li>Run hugo in server mode and build the docs</li>
-<li>Open your browser to http://localhost:1313</li>
-</ol>
-<p>Corresponding pseudo commands:</p>
-<pre><code>git clone https://github.com/spf13/hugo
-cd hugo
-/path/to/where/you/installed/hugo server --source=./docs
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
-<h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
-<p>Stop the Hugo process by hitting Ctrl+C.</p>
-<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
-<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
-content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
-<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-<code>docs/content/overview/quickstart.md</code>.</p>
-<p>Change and save this file.. Notice what happened in your terminal.</p>
-<pre><code>&gt; Change detected, rebuilding site
-
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 26 ms
-</code></pre>
-<p>Refresh the browser and observe that the typo is now fixed.</p>
-<p>Notice how quick that was. Try to refresh the site before it&rsquo;s finished building. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
-<h2 id="step-4-have-fun">Step 4. Have fun</h2>
-<p>The best way to learn something is to play with it.</p>
+          <!-- raw HTML omitted -->
+<p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
 
     </div>
 
@@ -239,7 +180,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
            
             <p class="copyright-item">
                     <span>字数:</span>
-                   <span>350</span>
+                   <span>38</span>
             </p>
             
             <p class="copyright-item">
@@ -248,13 +189,13 @@ Having nearly instant feedback enables you to have your creativity flow without 
                 <span>
 
       
-        <a href="//twitter.com/share?url=https%3a%2f%2fwww.seasunfree.top%2f2014%2f04%2fgetting-started-with-hugo%2f&amp;text=Getting%20Started%20with%20Hugo&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fwww.seasunfree.top%2f2020%2f03%2ffirst-life%2f&amp;text=First%20Life&amp;via=" target="_blank" title="Share on Twitter">
           <i class="iconfont icon-twitter"></i>
         </a>
         
       
       
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.seasunfree.top%2f2014%2f04%2fgetting-started-with-hugo%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.seasunfree.top%2f2020%2f03%2ffirst-life%2f" target="_blank" title="Share on Facebook">
           <i class="iconfont icon-facebook"></i>
         </a>
         
@@ -262,7 +203,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
       
       
       
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.seasunfree.top%2f2014%2f04%2fgetting-started-with-hugo%2f&amp;title=Getting%20Started%20with%20Hugo" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.seasunfree.top%2f2020%2f03%2ffirst-life%2f&amp;title=First%20Life" target="_blank" title="Share on LinkedIn">
           <i class="iconfont icon-linkedin"></i>
         </a>
         
@@ -280,7 +221,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
           
 
           
-        <a href="//service.weibo.com/share/share.php?url=https%3a%2f%2fwww.seasunfree.top%2f2014%2f04%2fgetting-started-with-hugo%2f&amp;appkey=&amp;title=Getting%20Started%20with%20Hugo" target="_blank" title="Share on Douban ">
+        <a href="//service.weibo.com/share/share.php?url=https%3a%2f%2fwww.seasunfree.top%2f2020%2f03%2ffirst-life%2f&amp;appkey=&amp;title=First%20Life" target="_blank" title="Share on Douban ">
             <i class="iconfont icon-weibo"></i>
           </a>
           
@@ -301,17 +242,11 @@ Having nearly instant feedback enables you to have your creativity flow without 
             <section>
             <i class="iconfont icon-icon-tag"></i>: 
             
-            <span class="tag"><a href="https://www.seasunfree.top/tags/go/">
-                    #go</a></span>
+            <span class="tag"><a href="https://www.seasunfree.top/tags/first/">
+                    #first</a></span>
             
-            <span class="tag"><a href="https://www.seasunfree.top/tags/golang/">
-                    #golang</a></span>
-            
-            <span class="tag"><a href="https://www.seasunfree.top/tags/hugo/">
-                    #hugo</a></span>
-            
-            <span class="tag"><a href="https://www.seasunfree.top/tags/development/">
-                    #development</a></span>
+            <span class="tag"><a href="https://www.seasunfree.top/tags/2020/">
+                    #2020</a></span>
             
             </section>
         
@@ -323,10 +258,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
 
     <div class="post-nav">
         
-        <a href="https://www.seasunfree.top/2014/04/introduction-aux-mod%C3%A8les-hugo/" class="prev" rel="prev" title="Introduction aux modèles (Hu)go"><i class="iconfont icon-dajiantou"></i>&nbsp;Introduction aux modèles (Hu)go</a>
+        <a href="https://www.seasunfree.top/2020/03/learn-md/" class="prev" rel="prev" title="Learn Md"><i class="iconfont icon-dajiantou"></i>&nbsp;Learn Md</a>
          
         
-        <a href="https://www.seasunfree.top/2014/04/hugo-template-primer/" class="next" rel="next" title="(Hu)go Template Primer">(Hu)go Template Primer&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
+        <a href="https://www.seasunfree.top/2014/03/migrate-to-hugo-from-jekyll/" class="next" rel="next" title="Migrate to Hugo from Jekyll">Migrate to Hugo from Jekyll&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
         
     </div>
 
@@ -346,7 +281,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a><span id="/2014/04/getting-started-with-hugo/" class="leancloud_visitors" data-flag-title="Getting Started with Hugo">
+  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a><span id="/2020/03/first-life/" class="leancloud_visitors" data-flag-title="First Life">
             <span class="post-meta-item-text"> Visitors: </span>
             <span class="leancloud-visitors-count">0</span>
             <p></p>
