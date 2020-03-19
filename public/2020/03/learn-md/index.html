@@ -55,7 +55,7 @@
   },
   "genre": "posts",
   "keywords": "Markdown",
-  "wordcount":  212 ,
+  "wordcount":  226 ,
   "url": "https:\/\/www.seasunfree.top\/2020\/03\/learn-md\/",
   "datePublished": "2020-03-18T11:06:34\x2b08:00",
   "dateModified": "2020-03-18T11:06:34\x2b08:00",
@@ -150,6 +150,8 @@
         
 
         
+            
+        
 
         
         
@@ -200,26 +202,24 @@
 <h1 id="段落">段落</h1>
 <p>创建段落，使用一行或多行分割。</p>
 <p>不要缩进带有空格或制表符的段落。 <!-- raw HTML omitted --></p>
-<h1 id="加粗文本">加粗文本</h1>
-<p>请在单词或短语的前后添加两个星号或下划线。要加粗一个单词的中部以强调，请在字母周围添加两个星号，且各空格之间没有空格。</p>
-<pre><code>public void consumer() {
-    Consumer consumer = createConsumer();
-    consumer.subscribe(RocketMqConfig.topicJudge, &quot;*&quot;, (message, context) -&gt; {
-        String body = new String(message.getBody());
-        try {
-            if (message.getTag().equals(RocketMqConfig.RISK_TAG) || message.getTag().equals(RocketMqConfig.WAIT_TAG)) {
-                riskProcess.riskRule(body);
-            }
-        } catch (Throwable e) {
-            e.printStackTrace();
-        }
-        return Action.CommitMessage;
-    });
-    consumer.start();
-    logger.warn(&quot;启动一般消费者正常&quot;);
-}
+<h1 id="文本">文本</h1>
+<ul>
+<li>加粗文本
+请在单词或短语的前后添加两个星号或下划线。要加粗一个单词的中部以强调，请在字母周围添加两个星号，且各空格之间没有空格。</li>
+<li>斜体
+要斜体显示文本，请在单词或短语前后添加一个星号或下划线。要斜体突出单词的中间部分，请在字母周围添加一个星号，中间不要带空格。</li>
+</ul>
+<h1 id="插入图片">插入图片</h1>
+<pre><code>![avatar](https://bigdata-lijun.oss-cn-hangzhou.aliyuncs.com/images/ipoovx.jpg) 
 </code></pre>
-<p>😄</p>
+<ul>
+<li>效果:
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://bigdata-lijun.oss-cn-hangzhou.aliyuncs.com/images/ipoovx.jpg?x-oss-process=image/resize,w_300,h_300" alt="avatar" class="lazyload"><figcaption class="image-caption">avatar</figcaption></figure></li>
+</ul>
+<h1 id="引用区块">引用区块</h1>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+</blockquote>
 
     </div>
 
@@ -233,7 +233,7 @@
            
             <p class="copyright-item">
                     <span>字数:</span>
-                   <span>212</span>
+                   <span>226</span>
             </p>
             
             <p class="copyright-item">
@@ -331,7 +331,19 @@
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a><span id="/2020/03/learn-md/" class="leancloud_visitors" data-flag-title="Learn Md">
+  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<div >
+  <script src="https://utteranc.es/client.js"
+        repo= "holdlijun/hugoblogtalks"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
+
+
+      <span id="/2020/03/learn-md/" class="leancloud_visitors" data-flag-title="Learn Md">
             <span class="post-meta-item-text"> Visitors: </span>
             <span class="leancloud-visitors-count">0</span>
             <p></p>
@@ -388,8 +400,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    <link crossorigin="anonymous" integrity="sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb" href="https://lib.baomitu.com/lightgallery/1.6.12/css/lightgallery.min.css" rel="stylesheet">
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

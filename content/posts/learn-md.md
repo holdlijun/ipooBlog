@@ -22,25 +22,17 @@ tags : ["Markdown"]
 
 不要缩进带有空格或制表符的段落。 <br> 
 
-# 加粗文本
+# 文本
 
-请在单词或短语的前后添加两个星号或下划线。要加粗一个单词的中部以强调，请在字母周围添加两个星号，且各空格之间没有空格。  
+- 加粗文本
+	请在单词或短语的前后添加两个星号或下划线。要加粗一个单词的中部以强调，请在字母周围添加两个星号，且各空格之间没有空格。
+- 斜体
+	要斜体显示文本，请在单词或短语前后添加一个星号或下划线。要斜体突出单词的中间部分，请在字母周围添加一个星号，中间不要带空格。  
 
-	public void consumer() {
-        Consumer consumer = createConsumer();
-        consumer.subscribe(RocketMqConfig.topicJudge, "*", (message, context) -> {
-            String body = new String(message.getBody());
-            try {
-                if (message.getTag().equals(RocketMqConfig.RISK_TAG) || message.getTag().equals(RocketMqConfig.WAIT_TAG)) {
-                    riskProcess.riskRule(body);
-                }
-            } catch (Throwable e) {
-                e.printStackTrace();
-            }
-            return Action.CommitMessage;
-        });
-        consumer.start();
-        logger.warn("启动一般消费者正常");
-    }
+# 插入图片
+	![avatar](https://bigdata-lijun.oss-cn-hangzhou.aliyuncs.com/images/ipoovx.jpg) 
+- 效果:
+	![avatar](https://bigdata-lijun.oss-cn-hangzhou.aliyuncs.com/images/ipoovx.jpg?x-oss-process=image/resize,w_300,h_300) 
 
-:smile:
+# 引用区块
+> Dorothy followed her through many of the beautiful rooms in her castle.
