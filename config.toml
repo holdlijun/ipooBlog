@@ -175,7 +175,7 @@ pygmentsUseClasses=true
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
   verify = false # Verification code
   avatar = 'mm'
-  placeholder = 'your comments ...'
+  placeholder = '欢迎提出问题.....'
   visitor = true
 
 [params.utterances]       # https://utteranc.es/
