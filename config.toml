@@ -10,7 +10,7 @@ paginate = 12 # 首页每页显示的文章数
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = ""
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "ipoo"
 enableGitInfo = false #可根据 Git 中的提交生成最近更新记录。
 disableKinds = true
 #pygmentsOptions = "linenos=table"
@@ -18,6 +18,7 @@ disableKinds = true
 #pygmentsUseClasses = true
 #pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses=true
+publishDir = "docs"
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
@@ -94,9 +95,9 @@ pygmentsUseClasses=true
     tag = "tags"
     category = "categories"
     #series = "series"
-    #archive = "archives"
+    archive = "archives"
 [params.utteranc]
-    enable = true
+    enable = false
     repo = "holdlijun/hugoblogtalks"    # 存储评论的Repo，格式为 owner/repo
     issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
     theme = "github-light" # 样式主题，有github-light和github-dark两种
@@ -179,8 +180,8 @@ pygmentsUseClasses=true
   visitor = true
 
 [params.utterances]       # https://utteranc.es/
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
+    #owner = ""              # Your GitHub ID
+    #repo = ""               # The repo to store comments
 
 [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
     owner = ""              # Your GitHub ID

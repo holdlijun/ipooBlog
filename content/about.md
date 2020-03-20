@@ -1,20 +1,13 @@
 +++
 title = "About"
-date = "2014-04-09"
+date = "2020-02-02"
 aliases = ["about-us","about-hugo","contact"]
 [ author ]
-  name = "Hugo Authors"
+  name = "ipoo"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+又菜又爱学，学会了就要好好玩。 :smiley:
 
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
+:dog: GitHub: **https://github.com/holdlijun** <br>  
+:panda_face: 掘金: **https://juejin.im/user/5d67c98251882518e00565d7** <br>  
+:bear: 公众号: **seasunipoo**
