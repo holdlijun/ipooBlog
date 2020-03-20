@@ -1,13 +1,13 @@
 ---
 title: "Markdown 基础语法与进阶使用"
 description : "Markdown 常用语法，进阶使用"
-date: 2020-03-18T11:06:34+08:00
-draft: true
+date: 2020-03-18
+draft: false
 tags : ["Markdown"]
-type : ["posts","post"]
 categories : [
     "Markdown",
 ]
+type : ["posts","post"]
 ---
 
 #  标题

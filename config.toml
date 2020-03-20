@@ -18,6 +18,7 @@ disableKinds = true
 #pygmentsUseClasses = true
 #pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses=true
+publishDir = "docs"
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
@@ -94,7 +95,7 @@ pygmentsUseClasses=true
     tag = "tags"
     category = "categories"
     #series = "series"
-    #archive = "archives"
+    archive = "archives"
 [params.utteranc]
     enable = false
     repo = "holdlijun/hugoblogtalks"    # 存储评论的Repo，格式为 owner/repo
