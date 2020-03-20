@@ -179,8 +179,8 @@ pygmentsUseClasses=true
   visitor = true
 
 [params.utterances]       # https://utteranc.es/
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
+    #owner = ""              # Your GitHub ID
+    #repo = ""               # The repo to store comments
 
 [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
     owner = ""              # Your GitHub ID
