@@ -18,7 +18,6 @@ disableKinds = true
 #pygmentsUseClasses = true
 #pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses=true
-publishDir = "docs"
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
