@@ -37,8 +37,8 @@
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Migrate to Hugo from Jekyll"/>
 <meta name="twitter:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &lt;root&gt;/ ▾ images/ logo.png  should become
-▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static."/>
+▾ &lt;root&gt;/▾ images/logo.png should become
+▾ &lt;root&gt;/▾ static/▾ images/logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static."/>
 
   <script type="application/ld+json">
 {
@@ -400,7 +400,19 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a><span id="/2014/03/migrate-to-hugo-from-jekyll/" class="leancloud_visitors" data-flag-title="Migrate to Hugo from Jekyll">
+  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<div >
+  <script src="https://utteranc.es/client.js"
+        repo= "holdlijun/hugoblogtalks"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
+
+
+      <span id="/2014/03/migrate-to-hugo-from-jekyll/" class="leancloud_visitors" data-flag-title="Migrate to Hugo from Jekyll">
             <span class="post-meta-item-text"> Visitors: </span>
             <span class="leancloud-visitors-count">0</span>
             <p></p>
@@ -416,7 +428,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
                 notify:  false ,
                 verify:  false ,
                 avatar: "mm",
-                placeholder: "欢迎提出问题.....",
+                placeholder: "your comments ...",
                 visitor:  true ,
             });
         </script>
@@ -430,7 +442,6 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 		   </main>
       <footer class="footer">
     <div class="copyright">
-        
         &copy;
         
         <span itemprop="copyrightYear">2020 - 2020</span>
@@ -438,11 +449,9 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
          
             <span class="author" itemprop="copyrightHolder"><a href="https://www.seasunfree.top/">ipoo</a> | </span>
          
-         
+
 		  <span>Crafted with ❤️ by <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="external nofollow noopener noreffer">KeepIt</a> & <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a></span>
     </div>
-
-        
 </footer>
 
 
