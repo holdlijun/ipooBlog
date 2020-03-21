@@ -129,37 +129,37 @@ I think I'll use it to format all of my documents from now on.
 ~~~
 
 # 链接
-- 请将链接文本括在方括号（例如[ipoo Blog]）中，然后立即在URL后面加上括号（例如(https://seasunfree.top)）中的URL。<br>  
+- 请将链接文本括在方括号（例如[ipoo Blog]）中，然后立即在URL后面加上括号（例如(https://ipooli.com)）中的URL。<br>  
 ```txt
-精美的blog: [ipoo Blog](https://seasunfree.top).
+精美的blog: [ipoo Blog](https://ipooli.com).
 ```
 效果: <br>  
-ipoo的blog: [ipoo Blog](https://seasunfree.top).
+ipoo的blog: [ipoo Blog](https://ipooli.com).
 - 可以选择为链接添加标题。当用户将鼠标悬停在链接上时，将显示.
 ```txt
-ipoo的blog: [ipoo Blog](https://seasunfree.top "最好的博客").
+ipoo的blog: [ipoo Blog](https://ipooli.com "最好的博客").
 ```
 效果: <br>  
-ipoo的blog: [ipoo Blog](https://seasunfree.top "最好的博客").
+ipoo的blog: [ipoo Blog](https://ipooli.com "最好的博客").
 # 网址和电子邮件地址
 - 要将URL或电子邮件地址快速转换为链接，请将其用`<>`括起来。
 ```txt
-<https://seasunfree.top>
+<https://ipooli.com>
 ```
 效果:
 
-<https://seasunfree.top>
+<https://ipooli.com>
 - 链接放到段落里
 ```txt
 链接放在段落里，参考[ipoo blog link][1]
 
-[1]<https://seasunfree.top> "ipoo blog link"
+[1]<https://ipooli.com> "ipoo blog link"
 ```
 效果：
 
 链接放在段落里，参考[ipoo blog link][1]
 
-[1]: <https://seasunfree.top> "ipoo blog link"
+[1]: <https://ipooli.com> "ipoo blog link"
 
 - 自动转网址链接 直接输入链接，许多Markdown处理器会自动将URL转换为链接
 
