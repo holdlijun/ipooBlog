@@ -29,7 +29,7 @@ pygmentsUseClasses=true
   noreferrerLinks = true
 
 [Permalinks]
-  posts = "/:year/:month/:title/"
+  posts = "/:year/:month/:filename/"
 
 [menu]
   [[menu.main]]
