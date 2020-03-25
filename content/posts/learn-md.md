@@ -46,7 +46,7 @@ I think I'll use it to format all of my documents from now on.
 ![testImages](https://....com/images/ipoovx.jpg "ipoo") 
 ```
 - 效果:
-![testImages](https://bigdata-lijun.oss-cn-hangzhou.aliyuncs.com/images/ipoovx.jpg?x-oss-process=image/resize,w_300,h_300 "ipoo") 
+![testImages](https://www.ipooli.com/images/ipoovx.jpg?x-oss-process=image/resize,w_300,h_300 "ipoo") 
 
 # 引用区块
 - 在段落前面添加一个 `>`
