@@ -52,19 +52,19 @@
     <div class="post-copyright">
             {{ with .Site.Params.author }} 
             <p class="copyright-item">
-                <span>{{ i18n "Author" }}:</span>
+                <span>{{ i18n "Author" }}作者:</span>
                 <span>{{ . }} </span>
                 </p>
             {{ end }}
            
             <p class="copyright-item">
-                    <span>{{ i18n "Words" }}:</span>
+                    <span>{{ i18n "Words" }}字数:</span>
                    <span>{{ .WordCount }}</span>
             </p>
             
             <p class="copyright-item">
                 {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "share")) 0) }}
-                <span>{{ i18n "Share" }}:</span>
+                <span>{{ i18n "Share" }}分享:</span>
                 <span>{{ partial "share-links.html" . }}</span>
                 {{ end }}
             </p>

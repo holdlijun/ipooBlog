@@ -44,21 +44,20 @@ pygmentsUseClasses=true
   [[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 5
+    weight = 4
   [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 4
+    weight = 5
    
-
 [params]
     since = 2020
     author = "ipoo"               # Author's name
     subtitle = "ipoo blog"       # Subtitle
-    cdn_url = "www.ipooli.com"           # Base CDN URL
+    cdn_url = "https://oss.ipooli.com/"           # Base CDN URL
     home_mode = "" # post or other
     clearReading = false
-    google_verification = ""
+    google_verification = "OUPOTv6Cwcm17JDL3SMqX2wxHLQfVTwiD5A6RDQgCWU"
     bing_verification = ""
     yandex_verification = ""
     pinterest_verification = ""
