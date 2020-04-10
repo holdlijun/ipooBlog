@@ -1,3 +1,3 @@
 
 # ipooBlog
-[ipoo Blog](https://seasunfree.top "ipooBlog").
+[ipoo Blog](https://www.ipooli.com "ipooBlog").

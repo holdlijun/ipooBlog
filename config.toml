@@ -10,7 +10,7 @@ paginate = 12 # 首页每页显示的文章数
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = ""
-disqusShortname = "ipoo"
+#disqusShortname = "ipoo"
 enableGitInfo = false #可根据 Git 中的提交生成最近更新记录。
 disableKinds = true
 #pygmentsOptions = "linenos=table"
@@ -54,7 +54,7 @@ pygmentsUseClasses=true
     since = 2020
     author = "ipoo"               # Author's name
     subtitle = "ipoo blog"       # Subtitle
-    cdn_url = "https://oss.ipooli.com/"           # Base CDN URL
+    cdn_url = "http://oss.ipooli.com/"           # Base CDN URL
     home_mode = "" # post or other
     clearReading = false
     google_verification = "OUPOTv6Cwcm17JDL3SMqX2wxHLQfVTwiD5A6RDQgCWU"
