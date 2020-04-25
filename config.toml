@@ -5,7 +5,7 @@ title = "Ipoo"
 theme = "KeepIt"
 hasCJKLanguage = true    #自动检测是否包含 中文\日文\韩文
 disableRSS = true
-disableSitemap = false
+disableSitemap = true
 paginate = 12 # 首页每页显示的文章数
 enableEmoji = true
 enableRobotsTXT = true
@@ -19,7 +19,7 @@ disableKinds = true
 #pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses=true
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
 
@@ -49,11 +49,10 @@ pygmentsUseClasses=true
     name = "About"
     url = "/about"
     weight = 5
-   
 [params]
     since = 2020
     author = "ipoo"               # Author's name
-    subtitle = "ipoo blog"       # Subtitle
+    subtitle = "Java,Python,Spring,Flink,Hadoop,Hbase,MongoDb,消息中间件,分布式,数据库等"       # Subtitle
     cdn_url = "http://oss.ipooli.com/"           # Base CDN URL
     home_mode = "" # post or other
     clearReading = false
@@ -61,15 +60,15 @@ pygmentsUseClasses=true
     bing_verification = ""
     yandex_verification = ""
     pinterest_verification = ""
-    baidu_verification = ""
+    baidu_verification = "8a77a1da5c26eb58907238196d21566e"
     localSearch = true
     avatar = "/images/avatar.jpg" #comment it to use gravatar
     socialShare = true
 
-    description = "Li Jun's Blog" # site description
-    keywords = ["Mac", "Github" ,"Go", "Java","Https"] # site keywords
+    description = "Java,Python,Spring,Flink,Hadoop,Hbase,MongoDb,消息中间件,分布式,数据库等技术交流" # site description
+    keywords = ["Java", "Python" ,"Go", "消息中间件","Flink","MqSql","MongoDb"] # site keywords
     showArchiveCount = true
-    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+ #   license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
     moreMeta = true
 
 [params.outdatedInfoWarning]

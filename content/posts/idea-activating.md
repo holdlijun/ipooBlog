@@ -1,12 +1,14 @@
 ---
 title: "Idea 2020最新激活码"
 date: 2020-03-21T19:10:40+08:00
-description:
+description: "Idea 2020最新可用激活码"
 categories : [
 "Idea",]
 tags : [
 "Idea"]
 author: "ipoo"
+type : ["posts","post"]
+KeyName : "Idea激活码,Idea激活码怎么获得"
 ---
 
 

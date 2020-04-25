@@ -1,7 +1,7 @@
 ---
 title: "京东X芬香邀请码"
 date: 2020-04-10T11:00:04+08:00
-description:
+description: "京东X芬香邀请码,芬香注册,京东X芬香靠谱吗"
 categories : [
 "芬香",
 "副业"]
@@ -9,6 +9,7 @@ tags : [
 "副业"]
 featured_image: "http://oss.ipooli.com/images/fenxiang/fxcodeLow.jpg"
 author: "ipoo"
+KeyName : "京东X芬香邀请码,京东X芬香如何注册,芬香官方邀请码"
 ---
 
 
@@ -63,3 +64,14 @@ author: "ipoo"
  
 ④机遇优势：项目才开始 6个月（2019 年 6月正式上线），目前（11月份）有数十万超级会员，光京东的自有客户就有 3 个亿， 现在芬香50万超级会员，数十万万到 3 个亿，就已经出现每天收入3-4万的玩家，可见空间还非常巨大！！！免费做，不伤人脉，帮好友省钱的同时自己赚京东给的佣金。
 
+<script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'container',
+        blogId: '21660-1587706125113-590',
+        name: 'Ipoo',
+        qrcode: 'http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg',
+        keyword: 'ipoo',
+    });
+</script>

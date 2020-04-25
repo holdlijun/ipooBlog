@@ -6,10 +6,46 @@
     <description>Recent content in Posts on Ipoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Apr 2020 11:00:04 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 14:26:16 +0800</lastBuildDate>
     
 	<atom:link href="https://www.ipooli.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>将博客搬至CSDN</title>
+      <link>https://www.ipooli.com/2020/04/blogbanjia/</link>
+      <pubDate>Sat, 25 Apr 2020 14:26:16 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/04/blogbanjia/</guid>
+      <description>有帮助请留言&amp;hellip; 扫码关注公众号《ipoo》</description>
+    </item>
+    
+    <item>
+      <title>kafka能做什么？kafka集群配置 (卡夫卡 大数据)</title>
+      <link>https://www.ipooli.com/2020/04/learn-kafka/</link>
+      <pubDate>Sat, 25 Apr 2020 13:28:12 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/04/learn-kafka/</guid>
+      <description>什么是Kafka 官网介绍： 几个概念： 详细介绍 ： 操作kafka： kafka集群 消息测试 问题检测 什么是Kafka 官网介绍： ApacheKafka</description>
+    </item>
+    
+    <item>
+      <title>Linux 集群免密登录配置,双向免密</title>
+      <link>https://www.ipooli.com/2020/04/linux_host/</link>
+      <pubDate>Sat, 25 Apr 2020 11:18:55 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/04/linux_host/</guid>
+      <description>linux 集群免密登录配置 第一种方法 第二种方法 linux 集群免密登录配置 第一种方法 我这边准备三台主机 分别为bigdata1,bigdata2,bigdata</description>
+    </item>
+    
+    <item>
+      <title>https绕过证书认证请求 Get或Post请求（证书过期，忽略证书）</title>
+      <link>https://www.ipooli.com/2020/04/bypass_ssl/</link>
+      <pubDate>Mon, 13 Apr 2020 14:46:09 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/04/bypass_ssl/</guid>
+      <description>报错信息 解决： postman方式 java请求 报错信息 javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target 如果证书过期，配置容器为</description>
+    </item>
     
     <item>
       <title>京东X芬香邀请码</title>
@@ -27,15 +63,6 @@
       
       <guid>https://www.ipooli.com/2020/03/idea-activating/</guid>
       <description>2020最新版 可用的激活码 2019旧版 可用的激活码 2020最新版 可用的激活码 整段复制 QYYBAC9D3J-eyJsaWNlbnNlSWQiOiJRWVlCQUM5RDNKIiwibGljZW5zZWVOYW1lIjoi6LaF57qnIOeoi+W6j+WRmCIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiIiLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IklJIiwiZmFsbGJhY2tEYXRlIjoiMjAyMC0wMS0wNCIsInBhaWRVcFRvIjoiMjAyMS0wMS0wMyJ9LHsiY29kZSI6IkFDIiwiZmFsbGJhY2tEYXRlIjoiMjAyMC0wMS0wNCIsInBhaWRVcFRvIjoiMjAyMS0wMS0wMyJ9LHsiY29kZSI6IkRQTiIsImZhbGxiYWNrRGF0ZSI6IjIwMjAtMDEtMDQiLCJwYWlkVXBUbyI6IjIwMjEtMDEtMDMifSx7ImNvZGUiOiJQUyIsImZhbGxiYWNrRGF0ZSI6IjIwMjAtMDEtMDQiLCJwYWlkVXBUbyI6IjIwMjEtMDEtMDMifSx7ImNvZGUiOiJHTyIsImZhbGxiYWNrRGF0ZSI6IjIwMjAtMDEtMDQiLCJwYWlkVXBUbyI6IjIwMjEtMDEtMDMifSx7ImNvZGUiOiJETSIsImZhbGxiYWNrRGF0ZSI6IjIwMjAtMDEtMDQiLCJwYWlkVXBUbyI6IjIwMjEtMDEtMDMifSx7ImNvZGUiOiJDTCIsImZhbGxiYWNrRGF0ZSI6IjIwMjAtMDEtMDQiLCJwYWlkVXBUbyI6IjIwMjEtMDEtMDMifSx7ImNvZGUiOiJSUzAiLCJmYWxsYmFja0RhdGUiOiIyMDIwLTAxLTA0IiwicGFpZFVwVG8iOiIyMDIxLTAxLTAzIn0seyJjb2RlIjoiUkMiLCJmYWxsYmFja0RhdGUiOiIyMDIwLTAxLTA0IiwicGFpZFVwVG8iOiIyMDIxLTAxLTAzIn0seyJjb2RlIjoiUkQiLCJmYWxsYmFja0RhdGUiOiIyMDIwLTAxLTA0IiwicGFpZFVwVG8iOiIyMDIxLTAxLTAzIn0seyJjb2RlIjoiUEMiLCJmYWxsYmFja0RhdGUiOiIyMDIwLTAxLTA0IiwicGFpZFVwVG8iOiIyMDIxLTAxLTAzIn0seyJjb2RlIjoiUk0iLCJmYWxsYmFja0RhdGUiOiIyMDIwLTAxLTA0IiwicGFpZFVwVG8iOiIyMDIxLTAxLTAzIn0seyJjb2RlIjoiV1MiLCJmYWxsYmFja0RhdGUiOiIyMDIwLTAxLTA0IiwicGFpZFVwVG8iOiIyMDIxLTAxLTAzIn0seyJjb2RlIjoiREIiLCJmYWxsYmFja0RhdGUiOiIyMDIwLTAxLTA0IiwicGFpZFVwVG8iOiIyMDIxLTAxLTAzIn0seyJjb2RlIjoiREMiLCJmYWxsYmFja0RhdGUiOiIyMDIwLTAxLTA0IiwicGFpZFVwVG8iOiIyMDIxLTAxLTAzIn0seyJjb2RlIjoiUlNVIiwiZmFsbGJhY2tEYXRlIjoiMjAyMC0wMS0wNCIsInBhaWRVcFRvIjoiMjAyMS0wMS0wMyJ9XSwiaGFzaCI6IjE2MDgwOTA5LzAiLCJncmFjZVBlcmlvZERheXMiOjcsImF1dG9Qcm9sb25nYXRlZCI6ZmFsc2UsImlzQXV0b1Byb2xvbmdhdGVkIjpmYWxzZX0=-I7c5mu4hUCMxcldrwZEJMaT+qkrzrF1bjJi0i5QHcrRxk2LO0jqzUe2fBOUR4L+x+7n6kCwAoBBODm9wXst8dWLXdq179EtjU3rfJENr1wXGgtef//FNow+Id5iRufJ4W+p+3s5959GSFibl35YtbELELuCUH2IbCRly0PUBjitgA0r2y+9jV5YD/dmrd/p4C87MccC74NxtQfRdeUEGx87vnhsqTFH/sP4C2VljSo/F/Ft9JqsSlGfwSKjzU8BreYt1QleosdMnMK7a+fkfxh7n5zg4DskdVlNbfe6jvYgMVE16DMXd6F1Zhwq+lrmewJA2jPToc+H5304rcJfa9w==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMT 2019旧版 可用的激活码 整段复制 MNQ043JMTU-eyJsaWNlbnNlSWQiOiJNTlEwNDNKTVRVIiwibGljZW5zZWVOYW1lIjoiR1VPIEJJTiIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiIiLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IklJIiwiZmFsbGJhY2tEYXRlIjoiMjAxOS0wNC0wNSIsInBhaWRVcFRvIjoiMjAyMC0wNC0wNCJ9XSwiaGFzaCI6IjEyNjIxNDIwLzBwIiwiZ3JhY2VQZXJpb2REYXlzIjo3LCJhdXRvUHJvbG9uZ2F0ZWQiOnRydWUsImlzQXV0b1Byb2xvbmdhdGVkIjp0cnVlfQ==-Zmbxcn7NPlqBNqAURX0uiLzybnruyx6PG+6KYZrpzm/IJJs5nnIogGgdfIJoifO6fbaaJYc5pjds7CHdrt/neIpvF2o/HvIjMEF4/AhNV7HUGsAa9zpMszc6YBIkMmVFh4Y7GPKOStA14/Ld83AC7kGnwL1Fq7eAXKJFljc00GMejPpfE0zDqTN634bC+0ojfklhWXaLqhUt230SiE8onnd3quvEaH5NsW7sIQm2spyONZI+iHvHFtl4EvG7tlRlD1StsfhrbgNNxz61FOEEQ+GtZIzMx+T4sbpfoRyms7lbWQecrbAtE0c2sR98esm4PcDUhrFVBxGorPC1ppOLSQ==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTE 来自Win7系统之家</description>
-    </item>
-    
-    <item>
-      <title>Go语言学习笔记 一</title>
-      <link>https://www.ipooli.com/2020/03/learn-go-1/</link>
-      <pubDate>Sat, 21 Mar 2020 19:08:40 +0800</pubDate>
-      
-      <guid>https://www.ipooli.com/2020/03/learn-go-1/</guid>
-      <description>featured_image : &amp;ldquo;/images/ipoovx.jpg&amp;rdquo;</description>
     </item>
     
     <item>

@@ -52,8 +52,7 @@ User-agent: Heritrix
 Disallow: /
 
 # Block pricepi
-User-agent: pimonster
-Disallow: /
+
 User-agent: Pimonster
 Disallow: /
 

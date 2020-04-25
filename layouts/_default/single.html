@@ -6,7 +6,7 @@
         <div class="post-meta">
             {{ i18n "Written" }} {{ i18n "by" }} <a href="{{.Site.BaseURL }}" rel="author">{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}</a> {{ i18n "with" }} ♥ 
                 <span class="post-time">
-                    {{ i18n "on" }} <time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} >{{ .Date.Format (.Site.Params.dateFormatToUse | default "2 January 2006") }}</time>
+                    {{ i18n "on" }} <time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2020-01-02") }} >{{ .Date.Format (.Site.Params.dateFormatToUse | default "2 January 2006") }}</time>
                 </span>
                 {{ i18n "in" }}
                 {{ with .Params.categories -}}
@@ -64,10 +64,18 @@
             
             <p class="copyright-item">
                 {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "share")) 0) }}
+                <span>{{ i18n "Share" }}链接:</span>
+                <a href="{{ .Permalink }}" > {{ .Permalink }} </a>
+                {{ end }}
+            </p>
+
+              <p class="copyright-item">
+                {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "share")) 0) }}
                 <span>{{ i18n "Share" }}分享:</span>
                 <span>{{ partial "share-links.html" . }}</span>
                 {{ end }}
             </p>
+
 
             {{ with .Site.Params.license }} 
             <p class="copyright-item">
@@ -88,8 +96,8 @@
             </section>
         {{ end }}
         <section>
-                <a href="javascript:window.history.back();">{{ i18n "back" }}</a></span> · 
-                <span><a href="{{ .Site.BaseURL }}">{{ i18n "Home" }}</a></span>
+                <a href="javascript:window.history.back();">Back</a></span> · 
+                <span><a href="{{ .Site.BaseURL }}">Home</a></span>
         </section>
     </div>
 

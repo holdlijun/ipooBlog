@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
+title: "将博客搬至CSDN"
+date: 2020-04-25T14:26:16+08:00
+
 description:
 categories:
  -
