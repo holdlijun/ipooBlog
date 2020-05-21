@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ipoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Apr 2020 15:08:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 15:22:39 +0800</lastBuildDate>
     
 	<atom:link href="https://www.ipooli.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>java中GC垃圾回收机制,如何查看GC日志</title>
+      <link>https://www.ipooli.com/2020/05/javagccheck/</link>
+      <pubDate>Thu, 21 May 2020 15:22:39 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/05/javagccheck/</guid>
+      <description>idea 打印gc日志 添加程序运行启动参数: -XX:+PrintGCDetails 显式调用时，触发FGC: System.gc(); 命令行编译 java -verbose:gc Test 服务启动参数 -XX:+PrintGCTimeStamps -XX:+PrintGCDetails -verbose:gc -Xloggc:/home/admin/logs/gc-risk.log #gc日志输出路径 gc触发条件 YGC是什</description>
+    </item>
     
     <item>
       <title>被删库&#39;勒索&#39;警醒事件</title>

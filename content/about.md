@@ -8,6 +8,6 @@ aliases = ["about-us","about-hugo","contact"]
 
 又菜又爱学，学会了就要好好玩。 :smiley:
 
-:dog: GitHub: **https://github.com/holdlijun** <br>  
-:panda_face: 掘金: **https://juejin.im/user/5d67c98251882518e00565d7** <br>  
+<!-- :dog: GitHub: **https://github.com/holdlijun** <br>  
+:panda_face: 掘金: **https://juejin.im/user/5d67c98251882518e00565d7** <br>   -->
 :bear: 公众号: **seasunipoo**

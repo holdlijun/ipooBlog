@@ -4,7 +4,133 @@
     <url>
       <loc>https://www.ipooli.com/categories/</loc>
       
-      <lastmod>2020-04-27T15:08:00+08:00</lastmod>
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/gc/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/categories/gc/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/java/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/categories/java/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/2020/05/javagccheck/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/posts/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/%E5%86%85%E5%AD%98/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/categories/%E5%86%85%E5%AD%98/</loc>
+      
+      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -31,34 +157,6 @@
   
     <url>
       <loc>https://www.ipooli.com/categories/mongodb/</loc>
-      
-      <lastmod>2020-04-27T15:08:00+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/posts/</loc>
-      
-      <lastmod>2020-04-27T15:08:00+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/tags/</loc>
       
       <lastmod>2020-04-27T15:08:00+08:00</lastmod>
       
