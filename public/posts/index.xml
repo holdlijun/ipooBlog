@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ipoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 21 May 2020 15:22:39 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 17:36:37 +0800</lastBuildDate>
     
 	<atom:link href="https://www.ipooli.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux关闭防火墙 Centos7如何关闭防火墙</title>
+      <link>https://www.ipooli.com/2020/05/turn-fire/</link>
+      <pubDate>Thu, 28 May 2020 17:36:37 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/05/turn-fire/</guid>
+      <description>查看防火墙状态 systemctl status firewalld centos7：service iptables status 即使生效，临时关闭 systemctl stop firewalld service iptables stop 永久关闭防火墙 chkconfig iptables off centos7：systemctl disable</description>
+    </item>
     
     <item>
       <title>java中GC垃圾回收机制,如何查看GC日志</title>

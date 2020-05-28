@@ -6,6 +6,7 @@ categories: ["Java","内存","GC"]
 tags : ["Java","内存","GC"]
 featured_image:
 author: "ipoo"
+KeyName : "JavaGC,GC日志,垃圾回收，Java垃圾回收"
 ---
 
 

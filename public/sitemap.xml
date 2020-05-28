@@ -4,7 +4,77 @@
     <url>
       <loc>https://www.ipooli.com/categories/</loc>
       
-      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
+      <lastmod>2020-05-28T17:36:37+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/linux/</loc>
+      
+      <lastmod>2020-05-28T17:36:37+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/categories/linux/</loc>
+      
+      <lastmod>2020-05-28T17:36:37+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/2020/05/turn-fire/</loc>
+      
+      <lastmod>2020-05-28T17:36:37+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/posts/</loc>
+      
+      <lastmod>2020-05-28T17:36:37+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/</loc>
+      
+      <lastmod>2020-05-28T17:36:37+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -73,34 +143,6 @@
   
     <url>
       <loc>https://www.ipooli.com/2020/05/javagccheck/</loc>
-      
-      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/posts/</loc>
-      
-      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/tags/</loc>
       
       <lastmod>2020-05-21T15:22:39+08:00</lastmod>
       
@@ -257,34 +299,6 @@
       <loc>https://www.ipooli.com/categories/%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
       
       <lastmod>2020-04-25T13:28:12+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/tags/linux/</loc>
-      
-      <lastmod>2020-04-25T11:18:55+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/categories/linux/</loc>
-      
-      <lastmod>2020-04-25T11:18:55+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
