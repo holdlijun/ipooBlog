@@ -4,10 +4,40 @@ date: 2020-06-02T12:04:52+08:00
 description: kubernetes是什么？都9102年了,你再不了解Kubernetes就真的out了
 categories: ["K8S"]
 tags: ["K8S"]
-featured_image:
+featured_image: https://bigdata-lijun.oss-cn-hangzhou.aliyuncs.com/images/%E4%B8%BB.png
 author: "ipoo"
 KeyName : "k8s,Kubernetes,Kubernetes理解,Kubernetes是什么"
 ---
+
+<!-- MarkdownTOC -->
+
+- [Kubernetes 是什么](#kubernetes-%E6%98%AF%E4%BB%80%E4%B9%88)
+- [分别解释下 k8s 的几个关键字](#%E5%88%86%E5%88%AB%E8%A7%A3%E9%87%8A%E4%B8%8B-k8s-%E7%9A%84%E5%87%A0%E4%B8%AA%E5%85%B3%E9%94%AE%E5%AD%97)
+  - [生产级别](#%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%88%AB)
+  - [容器](#%E5%AE%B9%E5%99%A8)
+  - [编排系统](#%E7%BC%96%E6%8E%92%E7%B3%BB%E7%BB%9F)
+  - [k8s 架构概览](#k8s-%E6%9E%B6%E6%9E%84%E6%A6%82%E8%A7%88)
+    - [Master 组件](#master-%E7%BB%84%E4%BB%B6)
+    - [Node 组件](#node-%E7%BB%84%E4%BB%B6)
+  - [概念](#%E6%A6%82%E5%BF%B5)
+    - [计算资源](#%E8%AE%A1%E7%AE%97%E8%B5%84%E6%BA%90)
+    - [网络通信](#%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1)
+    - [工作模型](#%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%9E%8B)
+      - [ReplicaSet](#replicaset)
+      - [DaemonSet](#daemonset)
+      - [Job](#job)
+      - [CronJob](#cronjob)
+      - [StatefulSets](#statefulsets)
+    - [更新部署](#%E6%9B%B4%E6%96%B0%E9%83%A8%E7%BD%B2)
+    - [数据持久化](#%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96)
+      - [Persistent Volumes](#persistent-volumes)
+      - [Persistent Volumes Claim](#persistent-volumes-claim)
+  - [小结](#%E5%B0%8F%E7%BB%93)
+- [k8s 与 大数据](#k8s-%E4%B8%8E-%E5%A4%A7%E6%95%B0%E6%8D%AE)
+
+<!-- /MarkdownTOC -->
+
+
 
 # Kubernetes 是什么
 
@@ -358,7 +388,7 @@ spec:
     matchExpressions:
       - {key: environment, operator: In, values: [dev]}
 ```
-### 小结
+## 小结
 将上述的概念做一个小结：
 
 - 最小计算单元 = Pod
@@ -370,7 +400,7 @@ spec:
 - 有状态 Pod 调度 = StatefulSet
 - 存储 = Persistent Volumes 以及之上的 Persistent Volumes Claim
 
-## k8s 与 大数据
+# k8s 与 大数据
 我们看到很多企业的业务应用都已经部署到了 k8s 的集群之上，尤其是一些无状态的 Web 服务和 API 服务，特别适合 k8s 的场景。但是以 Hadoop 为代表的大数据系统能够运行在 k8s 之上吗？
 
 如果将 Hadoop 部署在 k8s 之上，会带来哪些好处呢：

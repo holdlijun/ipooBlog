@@ -17,7 +17,7 @@
       <pubDate>Tue, 02 Jun 2020 12:04:52 +0800</pubDate>
       
       <guid>https://www.ipooli.com/2020/06/k8s-what/</guid>
-      <description>Kubernetes 是什么 原文： Kubernetes 是什么 作者：厚之成 都9102年了，你再不了解 Kubernetes 就真的 out 了！！！（贩卖焦虑体 kubernetes 是什么？Kubernetes 这个词来源于希腊语，</description>
+      <description>Kubernetes 是什么 分别解释下 k8s 的几个关键字 生产级别 容器 编排系统 k8s 架构概览 Master 组件 Node 组件 概念 计算资源 网络通信 工作模型 ReplicaSet DaemonSet Job CronJob StatefulSets 更新部署 数据持久化 Persistent Volumes Persistent Volumes Claim</description>
     </item>
     
     <item>
