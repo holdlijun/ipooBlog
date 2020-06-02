@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ipoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 28 May 2020 17:36:37 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 12:04:52 +0800</lastBuildDate>
     
 	<atom:link href="https://www.ipooli.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kubernetes 是什么</title>
+      <link>https://www.ipooli.com/2020/06/k8s-what/</link>
+      <pubDate>Tue, 02 Jun 2020 12:04:52 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/06/k8s-what/</guid>
+      <description>Kubernetes 是什么 原文： Kubernetes 是什么 作者：厚之成 都9102年了，你再不了解 Kubernetes 就真的 out 了！！！（贩卖焦虑体 kubernetes 是什么？Kubernetes 这个词来源于希腊语，</description>
+    </item>
     
     <item>
       <title>Linux关闭防火墙 Centos7如何关闭防火墙</title>
