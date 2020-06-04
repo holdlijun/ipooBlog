@@ -13,10 +13,11 @@ KeyName : "Linux 集群免密登录配置,Linux"
 <!-- MarkdownTOC -->
 
 - [linux 集群免密登录配置](#linux-%E9%9B%86%E7%BE%A4%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95%E9%85%8D%E7%BD%AE)
-	- [第一种方法](#%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95)
-	- [第二种方法](#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E6%B3%95)
+    - [第一种方法](#%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95)
+    - [第二种方法](#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E6%B3%95)
 
 <!-- /MarkdownTOC -->
+
 
 
 ## linux 集群免密登录配置

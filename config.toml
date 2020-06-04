@@ -53,7 +53,7 @@ pygmentsUseClasses=true
     since = 2020
     author = "ipoo"               # Author's name
     subtitle = "Java,Python,Spring,Flink,Hadoop,Hbase,MongoDb,消息中间件,分布式,数据库等"       # Subtitle
-    cdn_url = "http://oss.ipooli.com/"           # Base CDN URL
+    cdn_url = "www.ipooli.com"           # Base CDN URL
     home_mode = "" # post or other
     clearReading = false
     google_verification = "OUPOTv6Cwcm17JDL3SMqX2wxHLQfVTwiD5A6RDQgCWU"
@@ -88,7 +88,7 @@ pygmentsUseClasses=true
     issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
     theme = "github-light" # 样式主题，有github-light和github-dark两种
 [params.social]
-    GitHub = "/holdlijun"
+    #GitHub = "/holdlijun"
     #Linkedin = "xxxx"
     #Twitter = "xxxx"
     #Instagram = "xxxx"
