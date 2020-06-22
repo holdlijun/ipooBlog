@@ -6,10 +6,46 @@
     <description>Recent content in Posts on Ipoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 02 Jun 2020 15:57:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2020 16:50:46 +0800</lastBuildDate>
     
 	<atom:link href="https://www.ipooli.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Flink 集群搭建,Standalone,集群部署,HA高可用部署</title>
+      <link>https://www.ipooli.com/2020/06/flink-deploy/</link>
+      <pubDate>Mon, 22 Jun 2020 16:50:46 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/06/flink-deploy/</guid>
+      <description>基础环境 准备3台虚拟机 配置无密码登录 下载Flink 部署 Standalone Cluster 单机模式 启动 集群模式 修改配置文件 拷贝到其他两台机器 启动集群 HA高可用模式 下载had</description>
+    </item>
+    
+    <item>
+      <title>Flink Table Api &amp; SQL 初体验,Blink的使用</title>
+      <link>https://www.ipooli.com/2020/06/flink-table/</link>
+      <pubDate>Sat, 20 Jun 2020 11:18:11 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/06/flink-table/</guid>
+      <description>概述 使用 pom依赖 模拟一个实时流 主程序 结果打印 总结 概述 Flink具有Table API和SQL-用于统一流和批处理。 Table API是用于Scala和</description>
+    </item>
+    
+    <item>
+      <title>Flink 如何分流数据</title>
+      <link>https://www.ipooli.com/2020/06/output/</link>
+      <pubDate>Thu, 11 Jun 2020 17:16:05 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/06/output/</guid>
+      <description>场景 分流方式 如何分流 使用Filter分流 使用Split分流 使用Side Output分流 场景 获取流数据的时候,通常需要根据所需把流拆分出其他多</description>
+    </item>
+    
+    <item>
+      <title>Flink DataStream中min(),minBy(),max(),max()之间的区别</title>
+      <link>https://www.ipooli.com/2020/06/minother/</link>
+      <pubDate>Wed, 10 Jun 2020 11:31:25 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/06/minother/</guid>
+      <description>解释 官方文档中: The difference between min and minBy is that min returns the minimum value, whereas minBy returns the element that has the minimum value in this field (same for max and maxBy). 翻译: min和minBy之间的区别是min返回最小值，而min</description>
+    </item>
     
     <item>
       <title>图片,视频素材整理</title>

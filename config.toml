@@ -36,7 +36,6 @@ pygmentsUseClasses=true
     name = "Blog"
     url = "/posts/"
     weight = 1
-
   [[menu.main]]
     name = "Categories"
     url = "/categories/"
@@ -49,6 +48,7 @@ pygmentsUseClasses=true
     name = "About"
     url = "/about"
     weight = 5
+
 [params]
     since = 2020
     author = "ipoo"               # Author's name

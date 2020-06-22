@@ -4,7 +4,49 @@
     <url>
       <loc>https://www.ipooli.com/categories/</loc>
       
-      <lastmod>2020-06-02T15:57:10+08:00</lastmod>
+      <lastmod>2020-06-22T16:50:46+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/flink/</loc>
+      
+      <lastmod>2020-06-22T16:50:46+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/categories/flink/</loc>
+      
+      <lastmod>2020-06-22T16:50:46+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/2020/06/flink-deploy/</loc>
+      
+      <lastmod>2020-06-22T16:50:46+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -18,7 +60,63 @@
     <url>
       <loc>https://www.ipooli.com/posts/</loc>
       
-      <lastmod>2020-06-02T15:57:10+08:00</lastmod>
+      <lastmod>2020-06-22T16:50:46+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/</loc>
+      
+      <lastmod>2020-06-22T16:50:46+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/2020/06/flink-table/</loc>
+      
+      <lastmod>2020-06-20T11:18:11+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/2020/06/output/</loc>
+      
+      <lastmod>2020-06-11T17:16:05+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/2020/06/minother/</loc>
+      
+      <lastmod>2020-06-10T11:31:25+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -87,20 +185,6 @@
   
     <url>
       <loc>https://www.ipooli.com/2020/06/k8s-what/</loc>
-      
-      <lastmod>2020-06-02T12:04:52+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/tags/</loc>
       
       <lastmod>2020-06-02T12:04:52+08:00</lastmod>
       

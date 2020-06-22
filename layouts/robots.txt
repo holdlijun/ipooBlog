@@ -1,65 +1,42 @@
 User-agent: *
-
-Disallow: /images/
-Disallow: /js/
-Disallow: /css/
-
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: BLEXBot
-Disallow: /
-
-# Block SISTRIX
-User-agent: SISTRIX Crawler
-Disallow: /
-User-agent: sistrix
-Disallow: /
-User-agent: 007ac9
-Disallow: /
-User-agent: 007ac9 Crawler
-Disallow: /
-
-# Block Uptime robot
-User-agent: UptimeRobot/2.0
-Disallow: /
-
-# Block Ezooms Robot
-User-agent: Ezooms Robot
-Disallow: /
-
-# Block Perl LWP
-User-agent: Perl LWP
-Disallow: /
-
-# Block netEstate NE Crawler (+http://www.website-datenbank.de/)
-User-agent: netEstate NE Crawler (+http://www.website-datenbank.de/)
-Disallow: /
-
-# Block WiseGuys Robot
-User-agent: WiseGuys Robot
-Disallow: /
-
-# Block Turnitin Robot
-User-agent: Turnitin Robot
-Disallow: /
-
-# Block Heritrix
-User-agent: Heritrix
-Disallow: /
-
-# Block pricepi
-
-User-agent: Pimonster
-Disallow: /
-
-User-agent: SurdotlyBot
-Disallow: /
-
-User-agent: ZoominfoBot
-Disallow: /
+Allow:/
+User-agent: Baiduspider
+Disallow: 
+User-agent: Sosospider
+Disallow: 
+User-agent: sogou spider
+Disallow: 
+User-agent: YodaoBot
+Disallow: 
+User-agent: Googlebot
+Disallow: 
+User-agent: Bingbot
+Disallow: 
+User-agent: Slurp
+Disallow: 
+User-agent: Teoma
+Disallow: 
+User-agent: ia_archiver
+Disallow: 
+User-agent: twiceler
+Disallow: 
+User-agent: MSNBot
+Disallow: 
+User-agent: Scrubby
+Disallow: 
+User-agent: Robozilla
+Disallow: 
+User-agent: Gigabot
+Disallow: 
+User-agent: googlebot-image
+Disallow: 
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: yahoo-mmcrawler
+Disallow: 
+User-agent: yahoo-blogs/v3.9
+Disallow: 
+User-agent: psbot
+Disallow: 
 
 Sitemap: {{ "sitemap.xml" | absLangURL }}

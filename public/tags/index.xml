@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Ipoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 02 Jun 2020 12:04:52 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2020 16:50:46 +0800</lastBuildDate>
     
 	<atom:link href="https://www.ipooli.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Flink</title>
+      <link>https://www.ipooli.com/tags/flink/</link>
+      <pubDate>Mon, 22 Jun 2020 16:50:46 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/tags/flink/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>K8S</title>
