@@ -39,7 +39,7 @@ KeyName : "Flink,Standalone 部署,Flink 集群部署,Flink HA高可用部署,Hi
 
 ## 准备3台虚拟机
 
-![](https://bigdata-lijun.oss-cn-hangzhou.aliyuncs.com/uploads%2F2020%2F06%2F22%2Fe79Dap6M_%E6%9C%AA%E5%91%BD%E5%90%8D1592806473.png?Expires=1592806501)
+![](https://oss.ipooli.com/uploads%2F2020%2F06%2F22%2Fe79Dap6M_%E6%9C%AA%E5%91%BD%E5%90%8D1592806473.png?Expires=1592806501)
 
 ## 配置无密码登录
 配置方法:[https://ipooli.com/2020/04/linux_host/](https://ipooli.com/2020/04/linux_host/)
