@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ipoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 22 Jun 2020 16:50:46 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2020 16:49:16 +0800</lastBuildDate>
     
 	<atom:link href="https://www.ipooli.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java List和Map遍历的方法,forEach()的使用</title>
+      <link>https://www.ipooli.com/2020/07/iterate/</link>
+      <pubDate>Wed, 15 Jul 2020 16:49:16 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/07/iterate/</guid>
+      <description>注意: 不要在foreach循环里进行元素的remove/add操作。remove元素请使用Iterator方式，如果并发操作，需要对Iter</description>
+    </item>
     
     <item>
       <title>Flink 集群搭建,Standalone,集群部署,HA高可用部署</title>
