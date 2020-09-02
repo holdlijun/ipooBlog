@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ipoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Jul 2020 16:49:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2020 17:40:40 +0800</lastBuildDate>
     
 	<atom:link href="https://www.ipooli.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java虚拟机垃圾回收-对象是否已死</title>
+      <link>https://www.ipooli.com/2020/09/object-dead/</link>
+      <pubDate>Wed, 02 Sep 2020 17:40:40 +0800</pubDate>
+      
+      <guid>https://www.ipooli.com/2020/09/object-dead/</guid>
+      <description>如何判断对象是否已死 在堆里存放着几乎所有的对象实例，垃圾收集器在堆进行回收前，要判断对象是否还存活着。 Java堆是虚拟机所管理的内存中最大的</description>
+    </item>
     
     <item>
       <title>Java List和Map遍历的方法,forEach()的使用</title>

@@ -4,7 +4,35 @@
     <url>
       <loc>https://www.ipooli.com/categories/</loc>
       
-      <lastmod>2020-07-15T16:49:16+08:00</lastmod>
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/gc/</loc>
+      
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/categories/gc/</loc>
+      
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -18,7 +46,7 @@
     <url>
       <loc>https://www.ipooli.com/tags/java/</loc>
       
-      <lastmod>2020-07-15T16:49:16+08:00</lastmod>
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -32,7 +60,7 @@
     <url>
       <loc>https://www.ipooli.com/categories/java/</loc>
       
-      <lastmod>2020-07-15T16:49:16+08:00</lastmod>
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -44,9 +72,9 @@
     </url>
   
     <url>
-      <loc>https://www.ipooli.com/2020/07/iterate/</loc>
+      <loc>https://www.ipooli.com/2020/09/object-dead/</loc>
       
-      <lastmod>2020-07-15T16:49:16+08:00</lastmod>
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -60,7 +88,7 @@
     <url>
       <loc>https://www.ipooli.com/posts/</loc>
       
-      <lastmod>2020-07-15T16:49:16+08:00</lastmod>
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
       
       
       <changefreq>daily</changefreq>
@@ -73,6 +101,62 @@
   
     <url>
       <loc>https://www.ipooli.com/tags/</loc>
+      
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/%E5%86%85%E5%AD%98/</loc>
+      
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/categories/%E5%86%85%E5%AD%98/</loc>
+      
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/tags/%E5%AF%B9%E8%B1%A1%E5%9B%9E%E6%94%B6/</loc>
+      
+      <lastmod>2020-09-02T17:40:40+08:00</lastmod>
+      
+      
+      <changefreq>daily</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://www.ipooli.com/2020/07/iterate/</loc>
       
       <lastmod>2020-07-15T16:49:16+08:00</lastmod>
       
@@ -282,63 +366,7 @@
     </url>
   
     <url>
-      <loc>https://www.ipooli.com/tags/gc/</loc>
-      
-      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/categories/gc/</loc>
-      
-      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
       <loc>https://www.ipooli.com/2020/05/javagccheck/</loc>
-      
-      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/tags/%E5%86%85%E5%AD%98/</loc>
-      
-      <lastmod>2020-05-21T15:22:39+08:00</lastmod>
-      
-      
-      <changefreq>daily</changefreq>
-      
-      
-      <priority>0.5</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://www.ipooli.com/categories/%E5%86%85%E5%AD%98/</loc>
       
       <lastmod>2020-05-21T15:22:39+08:00</lastmod>
       
