@@ -5,10 +5,13 @@
         <span itemprop="copyrightYear">{{.}} - {{ now.Year }}</span>
         {{ end }}
          {{ if .Site.Params.author }}
-            <span class="author" itemprop="copyrightHolder"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.author  }}</a> | </span>
+            <span class="author" itemprop="copyrightHolder" style="font-weight: bold;"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.author  }}</a> | </span>
          {{ end }}
 
-		  <span> 版权所有  ❤️ <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="external nofollow noopener noreffer">浙ICP备20009038号</a>
+		  <span><img src="images/beian.png"> 浙公网安备 33010502006127号 &nbsp&nbsp</span>
+            
+         ❤️ <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="external nofollow noopener noreffer">浙ICP备20009038号</a>
+         
     </div>
 </footer>
 

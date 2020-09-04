@@ -102,7 +102,7 @@ Process finished with exit code 0
 
 但不会等待它运行结束。稍后收集器会对F-Queue中的对象进行第二次小规模的标记，如果对象要在finalize()方法成功拯救自己——只要重新与任何GC Roots建立关联即可。那么在第二次标记是它会被移出"即将回收"的集合，如果对象还没逃脱，那基本上它就真的要被回收了。
 从如下代码中可以看到，对象执行finalize()方法，但是它仍然可以存活。
-```txt
+```java
 /**
  * @Author: www.ipooli.com
  * @DateTime: 2020/9/2 15:34
