@@ -13,9 +13,14 @@ aliases = ["about-us","about-hugo","contact"]
 <!-- :dog: GitHub: **https://github.com/holdlijun** <br>  
 :panda_face: 掘金: **https://juejin.im/user/5d67c98251882518e00565d7** <br>   -->
 
+
+:full_moon:&ensp;2020-11-24
+
+- 加入网易
+
 :full_moon:&ensp;2019-06-04
 
-- 进入朵拉
+- 加入朵拉
 
 :full_moon:&ensp;2019-02-18
 
