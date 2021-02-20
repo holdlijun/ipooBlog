@@ -33,7 +33,7 @@ javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: 
 2. 如果postman请求遇到此情况:**Could not get any response**
 
 
-![postman请求提示](http://oss.ipooli.com/images/blog/could.png)
+![postman请求提示](https://oss.ipooli.com/images/blog/could.png)
 
 ## 解决：
 ### postman方式
@@ -129,7 +129,7 @@ javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: 
 ```
 
 **有帮助请留言...**
-
+<!-- 
 
 扫码关注公众号《ipoo》
-![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg)
+![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg) -->
