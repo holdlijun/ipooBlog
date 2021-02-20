@@ -207,7 +207,7 @@ http://bigdata2:8081/
 小结:本篇介绍了Flink单机,集群,HA高可用三种部署方式。
 
 
-
+<!-- 
 
 扫码关注公众号《ipoo》
-![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg)
+![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg) -->

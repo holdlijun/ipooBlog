@@ -75,47 +75,79 @@ flink 版本为:1.9.3
 
 ## 模拟一个实时流
 ```java
-import lombok.Data;
-@Data
-public class Product {
+public class Item {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String name;
     public Integer id;
-    public String seasonType;
-}
+
+    public Item() {
+    }
+
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                '}';
+    }
 
 ```
 自定义Source
 ```java
-import common.Product;
+
+import common.Item;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 
 import java.util.ArrayList;
 import java.util.Random;
 
-public class ProductStremingSource implements SourceFunction<Product> {
+public class MyStreamingSource implements SourceFunction<Item> {
+
     private boolean isRunning = true;
 
+
     @Override
-    public void run(SourceContext<Product> ctx) throws Exception {
+    public void run(SourceContext<Item> ctx) throws Exception {
         while (isRunning){
-            // 每一秒钟产生一条数据
-            Product product = generateProduct();
-            ctx.collect(product);
+            Item item = generateItem();
+            ctx.collect(item);
             Thread.sleep(1000);
         }
     }
 
-    private Product generateProduct(){
+    /**
+     * 随机产生一条记录
+     *
+     * @return
+     */
+    private Item generateItem(){
         int i = new Random().nextInt(100);
         ArrayList<String> list = new ArrayList();
-        list.add("spring");
-        list.add("summer");
-        list.add("autumn");
-        list.add("winter");
-        Product product = new Product();
-        product.setSeasonType(list.get(new Random().nextInt(4)));
-        product.setId(i);
-        return product;
+        list.add("HAT");
+        list.add("TIE");
+        list.add("SHOE");
+        Item item = new Item();
+        item.setName(list.get(new Random().nextInt(3)));
+        item.setId(i);
+        return item;
     }
+
     @Override
     public void cancel() {
 
@@ -134,7 +166,7 @@ public class TableStremingDemo {
         EnvironmentSettings bsSettings = EnvironmentSettings.newInstance().useBlinkPlanner().inStreamingMode().build();
         StreamTableEnvironment bsTableEnv = StreamTableEnvironment.create(bsEnv, bsSettings);
 
-        SingleOutputStreamOperator<Item> source = bsEnv.addSource(new MyStremingSource())
+        SingleOutputStreamOperator<Item> source = bsEnv.addSource(new MyStreamingSource())
                 .map(new MapFunction<Item, Item>() {
                     @Override
                     public Item map(Item value) throws Exception {

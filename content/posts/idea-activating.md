@@ -45,6 +45,6 @@ MNQ043JMTU-eyJsaWNlbnNlSWQiOiJNTlEwNDNKTVRVIiwibGljZW5zZWVOYW1lIjoiR1VPIEJJTiIsI
 来自Win7系统之家分享: http://www.winwin7.com/JC/19249.html
 
 
-**:smile:关注公众号获取更多内容**
+<!-- **:smile:关注公众号获取更多内容**
 
-![ipoo](/images/vxg.jpg "ipoo") 
+![ipoo](/images/vxg.jpg "ipoo")  -->

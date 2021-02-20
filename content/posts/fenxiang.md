@@ -7,7 +7,7 @@ categories : [
 "副业"]
 tags : [
 "副业"]
-featured_image: "http://oss.ipooli.com/images/fenxiang/fxcodeLow.jpg"
+featured_image: "https://oss.ipooli.com/images/fenxiang/fxcodeLow.jpg"
 author: "ipoo"
 KeyName : "京东X芬香邀请码,京东X芬香如何注册,芬香官方邀请码"
 ---
@@ -36,7 +36,7 @@ KeyName : "京东X芬香邀请码,京东X芬香如何注册,芬香官方邀请�
 
 - 第四步：挑选京东商品发送到朋友圈或微信群进行推广，好友下单后即可看到收益 或者扫一扫专属的邀请二维码；见下图：
 
-![芬香](http://oss.ipooli.com/images/fenxiang/fxcodeHigh.png "芬香")
+![芬香](https://oss.ipooli.com/images/fenxiang/fxcodeHigh.png "芬香")
 
                 
 # 关于社交电商
