@@ -78,6 +78,6 @@ KeyName : "Java,集合,集合遍历,List遍历,Map遍历"
 
 使用forEach + Lambda表达式之后，代码量减少了很多。
 
-
+<!-- 
 扫码关注公众号《ipoo》
-![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg)
+![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg) -->

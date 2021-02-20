@@ -106,9 +106,3 @@ ssh root@bigdata2
 ```
 如果不提示输入密码则成功。
 
-**有帮助请留言...**
-
-
-
-更多文章,扫码关注公众号《ipoo》
-![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg)

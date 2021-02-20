@@ -77,6 +77,6 @@ KeyName : "Flink,DataStream,min(),max"
 返回的是指定字段最小值的元素。可以看到元素数值的正确。
 
 当然max(),maxBy同理。
-
+<!-- 
 扫码关注公众号《ipoo》
-![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg)
+![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg) -->

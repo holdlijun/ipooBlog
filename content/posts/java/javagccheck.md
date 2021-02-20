@@ -112,6 +112,6 @@ jmap -dump:format=b,file=heap pid
 
 > 参考：[IT人的职场进阶 ，作者骆俊武](https://mp.weixin.qq.com/s/I1fp89Ib2Na1-vjmjSpsjQ)
 
-
+<!-- 
 扫码关注公众号《ipoo》
-![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg)
+![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg) -->

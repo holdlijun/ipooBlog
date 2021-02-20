@@ -41,5 +41,3 @@ centos7：`systemctl disable firewalld` (停止并禁用开机启动)
 
 ---
 
-扫码关注公众号《ipoo》
-![ipoo](http://oss.ipooli.com/images/%E5%85%AC%E4%BC%97%E5%8F%B7code.jpg)
